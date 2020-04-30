@@ -13,7 +13,7 @@ const Home = () => {
                 <Typing.Backspace count={7} />
                 <span> ceramic artist</span>
                 <Typing.Backspace count={14} />
-                <span>fullstack developer from Brooklyn</span>
+                <span>fullstack developer from Brooklyn.</span>
             </Typing>
             <div>
                 <div></div>
