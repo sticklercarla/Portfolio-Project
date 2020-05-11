@@ -14,7 +14,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div className="Back">
+      
       <div className="App">
         <nav className="nav-div">
           <ul className="nav-cont">
@@ -49,7 +49,7 @@ const App = () => {
           </Switch>  
         </div>        
       </div>
-      </div>
+      
     </Router>
   )
 }

@@ -1,27 +1,21 @@
-.Back {
+.App {
   /* display: flex; */
   height: 100vh;
-  flex-direction: column;
-  justify-content: space-around;
-  /* background-image: url("/images/wallpaperflare.com_wallpaper.jpg"); */
+  /* flex-direction: column; */
   background-color: rgb(254, 249, 116);
   background-size: cover;
-  /* background-repeat: repeat-y; */
-  background-position: left bottom;
-  background-attachment: fixed;
-  margin: -15px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: -10px;
   overflow: scroll;
 }
 
+/* Nav Components */
 .nav-cont {
   text-align: right;
   padding: 20px;
+  margin-right: 25px;
   display: flex;
   justify-content: flex-end;
-
 }
 
 .nav-li {
@@ -29,73 +23,143 @@
   padding: 10px 10px;
 }
 
-.Body {
-  height: 100vh;
-  text-align: center;
+/* Home Components */
+.Home {
+  margin-top: 250px;
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-size: 28px;
 }
 
-.About {
+.right-panel {
   display: flex;
-  overflow: scroll;
+  flex-direction: column;
+  width: 680px;
+  padding-right: 70px;
+  justify-content: flex-end;
+  overflow-y: scroll;
+  overflow: auto;
+  height: 100%;
+}
+
+/* .left-panel {
+  padding-left: 70px;
+  padding-top: 70px;
+} */
+
+#fixed {
+  position: fixed;
+  right: 150px;
+}
+
+
+/* About Page */
+
+.skills {
+  border-top: 1px hotpink solid;
+  display: flex;
+  margin-left: 80px;
+  justify-content: space-between;
+}
+
+/* .About {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.right-panel p {
+  padding-left: 80px;
 }
 
 .profile-pic {
+  margin-top: 20px;
   margin-left: 80px;
   height: 400px;
+  /* width: 600px; */
 }
 
-.about-div {
-  text-align: left;
-  padding: 25px 40px;
-  height: 400px;
-  overflow: scroll;
+/* Portfolio */
+/* .Portfolio {
+  display: flex;
+  justify-content: space-between;
+} */
+/* 
+figcaption {
+  margin-bottom: 15px;
+  margin-left: 80px;
+} */
+
+a {
+  /* padding: 10px; */
+  margin: auto;
 }
 
-.left-panel {
+/* Contact */
+.Contact {
+  display: flex;
+}
+
+.contact-cont {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.icons {
+  padding-bottom: 25px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  /* margin-top: 100px; */
+}
+
+input {
+  margin-left: 10px;
+  width: 400px;
+}
+
+textarea {
+  height: 200px;
+  width: 400px;
+  margin: 10px;
+}
+
+
+
+
+/* .left-panel {
   margin-left: 45px;
   justify-content: flex-end;
-  /* text-align: right; */
-  /* width: 450px; */
   position: absolute;
   left: 50px;
   top: 300px;
 
-}
+} */
 
-.video-div {
-  
+/* .right-panel {
+  border: 1px black solid;
   height: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
-  /* position: absolute; */
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
   margin-right: 45px;
-  /* overflow: scroll; */
-}
-
-.video {
-
-  width: 640px;
-  margin: 25px;
-}
-
-figcaption {
-  margin-bottom: 15px;
-}
-
-a {
-  padding: 10px;
-  margin: 10px;
-  
-}
-
-/* .contact {
-  display: flex;
 } */
 
-.rt-panel {
+
+
+
+
+
+/* .rt-panel {
   display: flex;
   height: 450px;
   width: 200px;
@@ -104,16 +168,5 @@ a {
   margin-top: 25px;
   flex-direction: column;
   justify-content: space-around;
-}
+} */
 
-input {
-  margin-left: 10px;
-  width: 640px;
-}
-
-
-textarea {
-  height: 200px;
-  width: 640px;
-  margin: 10px;
-}

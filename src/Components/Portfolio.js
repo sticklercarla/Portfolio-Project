@@ -14,11 +14,11 @@ class Portfolio extends React.Component {
         };
      
         return (
-            <div className="portfolio-div">
-                <div className="left-panel">
+            <div className="Portfolio">
+                <h1 className="left-panel" id="fixed">
                     PORTFOLIO
-                </div>
-                <div className="video-div">
+                </h1>
+                <div className="right-panel">
                     <figure className="video">
                         <YouTube className="vid" videoId="FI3w12LSDto" opts={opts} onReady={this._onReady}/>
                         <figcaption>Are you and actor who needs to keep track of your audition stats? Who was in the room? How did it go? How many callbacks do you get vs how many shows did you book? This app makes visualizing your data easy and fun!</figcaption>
